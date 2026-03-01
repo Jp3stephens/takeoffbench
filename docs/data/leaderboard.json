@@ -1,0 +1,70 @@
+{
+  "last_updated": "2025-02-28",
+  "models": [
+    {
+      "rank": 1,
+      "name": "Claude 3.5 Sonnet",
+      "organization": "Anthropic",
+      "color": "anthropic",
+      "scores": {
+        "overall": 66.4,
+        "recall": 71.2,
+        "quantity": 64.8,
+        "classification": 58.3,
+        "csi": 72.1
+      },
+      "ci": 2.8,
+      "submission_date": "2025-02-15"
+    },
+    {
+      "rank": 2,
+      "name": "GPT-4o",
+      "organization": "OpenAI",
+      "color": "openai",
+      "scores": {
+        "overall": 63.1,
+        "recall": 68.5,
+        "quantity": 61.2,
+        "classification": 54.7,
+        "csi": 69.8
+      },
+      "ci": 3.1,
+      "submission_date": "2025-02-15"
+    },
+    {
+      "rank": 3,
+      "name": "Gemini 1.5 Pro",
+      "organization": "Google",
+      "color": "google",
+      "scores": {
+        "overall": 60.2,
+        "recall": 65.1,
+        "quantity": 58.9,
+        "classification": 51.2,
+        "csi": 67.4
+      },
+      "ci": 2.9,
+      "submission_date": "2025-02-15"
+    },
+    {
+      "rank": 4,
+      "name": "Qwen2-VL 72B",
+      "organization": "Alibaba",
+      "color": "opensource",
+      "scores": {
+        "overall": 44.2,
+        "recall": 48.3,
+        "quantity": 41.6,
+        "classification": 35.8,
+        "csi": 52.1
+      },
+      "ci": 3.5,
+      "submission_date": "2025-02-15"
+    }
+  ],
+  "benchmark_stats": {
+    "total_submissions": 4,
+    "total_projects_evaluated": 50,
+    "element_types": 12
+  }
+}
