@@ -1,0 +1,110 @@
+{
+  "project_id": "sample_003",
+  "name": "Apartment Unit",
+  "drawing_sheets": [
+    "A-101"
+  ],
+  "divisions": {
+    "08 - Openings": {
+      "sections": {
+        "08 14 16 - Wood Doors": {
+          "items": [
+            {
+              "description": "3'-0\" x 6'-8\" Flush Wood Door",
+              "quantity": 4,
+              "unit": "EA"
+            },
+            {
+              "description": "2'-6\" x 6'-8\" Flush Wood Door",
+              "quantity": 2,
+              "unit": "EA"
+            }
+          ]
+        },
+        "08 32 13 - Sliding Glass Doors": {
+          "items": [
+            {
+              "description": "6'-0\" x 6'-8\" Sliding Glass Door",
+              "quantity": 1,
+              "unit": "EA"
+            }
+          ]
+        },
+        "08 53 00 - Vinyl Windows": {
+          "items": [
+            {
+              "description": "3'-0\" x 4'-0\" SH Vinyl Window",
+              "quantity": 4,
+              "unit": "EA"
+            },
+            {
+              "description": "2'-0\" x 3'-0\" SH Vinyl Window",
+              "quantity": 2,
+              "unit": "EA"
+            }
+          ]
+        }
+      }
+    },
+    "12 - Furnishings": {
+      "sections": {
+        "12 32 00 - Casework": {
+          "items": [
+            {
+              "description": "Kitchen Base Cabinet",
+              "quantity": 10,
+              "unit": "LF"
+            },
+            {
+              "description": "Kitchen Wall Cabinet",
+              "quantity": 8,
+              "unit": "LF"
+            },
+            {
+              "description": "Bathroom Vanity 30\"",
+              "quantity": 1,
+              "unit": "EA"
+            }
+          ]
+        },
+        "12 36 00 - Countertops": {
+          "items": [
+            {
+              "description": "Laminate Countertop",
+              "quantity": 24,
+              "unit": "SF"
+            }
+          ]
+        }
+      }
+    },
+    "22 - Plumbing": {
+      "sections": {
+        "22 41 00 - Residential Fixtures": {
+          "items": [
+            {
+              "description": "Water Closet",
+              "quantity": 1,
+              "unit": "EA"
+            },
+            {
+              "description": "Lavatory",
+              "quantity": 1,
+              "unit": "EA"
+            },
+            {
+              "description": "Bathtub/Shower Combo",
+              "quantity": 1,
+              "unit": "EA"
+            },
+            {
+              "description": "Kitchen Sink",
+              "quantity": 1,
+              "unit": "EA"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

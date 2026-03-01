@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "takeoffbench"
+version = "0.1.0"
+description = "End-to-end AI benchmark for construction quantity takeoff"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "TakeoffBench Team", email = "contact@takeoffbench.com"}
+]
+keywords = ["ai", "benchmark", "construction", "takeoff", "vlm", "vision-language"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "pydantic>=2.0",
+]
+
+[project.optional-dependencies]
+baselines = [
+    "anthropic>=0.18.0",
+    "openai>=1.0.0",
+    "google-generativeai>=0.3.0",
+    "pillow>=9.0.0",
+]
+dev = [
+    "pytest>=7.0",
+    "black>=23.0",
+    "ruff>=0.1.0",
+]
+
+[project.scripts]
+takeoffbench = "cli.main:main"
+
+[project.urls]
+Homepage = "https://takeoffbench.com"
+Repository = "https://github.com/takeoffbench/takeoffbench"
+Documentation = "https://takeoffbench.com/docs"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.black]
+line-length = 100
+target-version = ["py39", "py310", "py311", "py312"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+select = ["E", "F", "I", "N", "W"]
+ignore = ["E501"]

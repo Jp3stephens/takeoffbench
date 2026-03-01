@@ -1,0 +1,115 @@
+{
+  "project_id": "sample_002",
+  "name": "Small Commercial Office",
+  "drawing_sheets": [
+    "A-101",
+    "A-102"
+  ],
+  "divisions": {
+    "08 - Openings": {
+      "sections": {
+        "08 11 13 - HM Doors": {
+          "items": [
+            {
+              "description": "3'-0\" x 7'-0\" HM Door w/ Frame",
+              "quantity": 12,
+              "unit": "EA"
+            },
+            {
+              "description": "Pair 3'-0\" x 7'-0\" HM Doors",
+              "quantity": 2,
+              "unit": "EA"
+            }
+          ]
+        },
+        "08 41 13 - Aluminum Entrances": {
+          "items": [
+            {
+              "description": "3'-0\" x 7'-0\" Storefront Entry",
+              "quantity": 2,
+              "unit": "EA"
+            }
+          ]
+        },
+        "08 51 13 - Aluminum Windows": {
+          "items": [
+            {
+              "description": "4'-0\" x 5'-0\" Fixed Window",
+              "quantity": 16,
+              "unit": "EA"
+            },
+            {
+              "description": "6'-0\" x 6'-0\" Storefront Window",
+              "quantity": 4,
+              "unit": "EA"
+            }
+          ]
+        }
+      }
+    },
+    "09 - Finishes": {
+      "sections": {
+        "09 29 00 - Gypsum Board": {
+          "items": [
+            {
+              "description": "5/8\" Type X GWB on Walls",
+              "quantity": 8500,
+              "unit": "SF"
+            }
+          ]
+        },
+        "09 51 00 - Acoustical Ceilings": {
+          "items": [
+            {
+              "description": "2x4 ACT Ceiling System",
+              "quantity": 4200,
+              "unit": "SF"
+            }
+          ]
+        },
+        "09 65 00 - Resilient Flooring": {
+          "items": [
+            {
+              "description": "VCT Flooring",
+              "quantity": 3800,
+              "unit": "SF"
+            },
+            {
+              "description": "Rubber Base",
+              "quantity": 920,
+              "unit": "LF"
+            }
+          ]
+        }
+      }
+    },
+    "22 - Plumbing": {
+      "sections": {
+        "22 42 00 - Commercial Fixtures": {
+          "items": [
+            {
+              "description": "Water Closet, Floor Mount",
+              "quantity": 8,
+              "unit": "EA"
+            },
+            {
+              "description": "Lavatory, Wall Mount",
+              "quantity": 6,
+              "unit": "EA"
+            },
+            {
+              "description": "Urinal, Wall Mount",
+              "quantity": 4,
+              "unit": "EA"
+            },
+            {
+              "description": "Break Room Sink",
+              "quantity": 1,
+              "unit": "EA"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

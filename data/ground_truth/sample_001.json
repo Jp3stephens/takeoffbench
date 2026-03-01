@@ -1,0 +1,92 @@
+{
+  "project_id": "sample_001",
+  "name": "Single Family Residence",
+  "drawing_sheets": [
+    "A-101"
+  ],
+  "divisions": {
+    "08 - Openings": {
+      "sections": {
+        "08 14 16 - Wood Doors": {
+          "items": [
+            {
+              "description": "3'-0\" x 6'-8\" HC Interior Door",
+              "quantity": 6,
+              "unit": "EA"
+            },
+            {
+              "description": "2'-8\" x 6'-8\" HC Interior Door",
+              "quantity": 2,
+              "unit": "EA"
+            },
+            {
+              "description": "3'-0\" x 6'-8\" Solid Core Entry Door",
+              "quantity": 1,
+              "unit": "EA"
+            }
+          ]
+        },
+        "08 52 00 - Wood Windows": {
+          "items": [
+            {
+              "description": "3'-0\" x 4'-0\" Double Hung Window",
+              "quantity": 6,
+              "unit": "EA"
+            },
+            {
+              "description": "4'-0\" x 5'-0\" Double Hung Window",
+              "quantity": 2,
+              "unit": "EA"
+            },
+            {
+              "description": "6'-0\" x 4'-0\" Sliding Window",
+              "quantity": 1,
+              "unit": "EA"
+            }
+          ]
+        }
+      }
+    },
+    "09 - Finishes": {
+      "sections": {
+        "09 29 00 - Gypsum Board": {
+          "items": [
+            {
+              "description": "5/8\" Type X GWB on Walls",
+              "quantity": 2450,
+              "unit": "SF"
+            },
+            {
+              "description": "1/2\" GWB on Ceilings",
+              "quantity": 1850,
+              "unit": "SF"
+            }
+          ]
+        }
+      }
+    },
+    "12 - Furnishings": {
+      "sections": {
+        "12 32 00 - Casework": {
+          "items": [
+            {
+              "description": "Base Cabinet 24\" x 34.5\"",
+              "quantity": 8,
+              "unit": "LF"
+            },
+            {
+              "description": "Wall Cabinet 24\" x 30\"",
+              "quantity": 6,
+              "unit": "LF"
+            },
+            {
+              "description": "Vanity Cabinet 36\"",
+              "quantity": 2,
+              "unit": "EA"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
